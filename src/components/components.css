@@ -1,0 +1,42 @@
+.btn-housing,
+.search-housing,
+.data-housing,
+.fig-housing {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-housing input {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.search-housing button {
+  padding: 3.5px 10px;
+}
+
+.btn-housing button {
+  padding: 5px 10px;
+  margin: 10px 5px;
+  font-weight: bold;
+}
+
+.selected {
+  background-color: rgb(180, 180, 180);
+}
+
+#time,
+#temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+p {
+  margin: 4px 0;
+}
