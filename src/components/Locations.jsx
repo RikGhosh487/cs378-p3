@@ -3,18 +3,18 @@
 const LOCATIONS = [
     {
         cityName: "Austin",
-        lat: "30.26715",
-        lon: "-97.74306"
+        lat: "30.27",
+        lon: "-97.74"
     },
     {
         cityName: "Dallas",
-        lat: "32.78306",
-        lon: "-96.80667"
+        lat: "32.78",
+        lon: "-96.81"
     },
     {
         cityName: "Houston",
-        lat: "29.76328",
-        lon: "-95.36327"
+        lat: "29.76",
+        lon: "-95.36"
     },
 ]
 

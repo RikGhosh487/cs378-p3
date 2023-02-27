@@ -47,8 +47,8 @@ function Cities() {
           // assume that the first input is the right input
           let cityData = json.results[0];
           let name = cityData.name;
-          let latitude = cityData.latitude + "";
-          let longitude = cityData.longitude + "";
+          let latitude = Math.round(cityData.latitude, 2) + "";
+          let longitude = Math.round(cityData.longitude, 2) + "";
 
           let arrCpy = [...locations];
           arrCpy.push({
