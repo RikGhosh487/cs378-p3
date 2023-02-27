@@ -122,9 +122,9 @@ function Cities() {
     if (weatherAPIURL === "") {
       setWeatherAPIURL(
         HEADER_WEATHER_API +
-          "30.26715" +
+          "30.27" +
           MIDDLE_WEATHER_API +
-          "-97.74306" +
+          "-97.74" +
           FOOTER_WEATHER_API
       );
     }
